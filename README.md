@@ -4,7 +4,7 @@ a Android app to emulate a Square One cube, and automatic resolution with artifi
 
 ## SquareOne cube
 
-![alt tag](https://goo.gl/C4goPc)
+![alt tag](https://images-na.ssl-images-amazon.com/images/I/41OsnVIAGZL.jpg)
 
 The Square One, also known as Back to Square One and Cube 21, is a puzzle similar to the Rubik's Cube. Its distinguishing feature among the numerous Rubik's Cube variants is that it can change shape as it is twisted, due to the way it is cut, thus adding an extra level of challenge and difficulty.
 
