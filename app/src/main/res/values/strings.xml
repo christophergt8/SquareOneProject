@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Square One Cube</string>
+    <string name="play">Play</string>
+    <string name="configurations">Configurations</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+
+</resources>
