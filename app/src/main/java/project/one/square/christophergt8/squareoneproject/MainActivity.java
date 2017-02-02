@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -15,15 +16,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        configurations = (Button) findViewById(R.id.configurationsbutton);
+        configurations = (Button) findViewById(R.id.configurations);
         configurations.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
+
         switch (v.getId()){
-            case R.id.configurationsbutton:
+            case R.id.configurations:
                 Intent toConfigurations = new Intent(MainActivity.this,ConfigurationActivity.class);
+                startActivity(toConfigurations);
                 break;
         }
     }
