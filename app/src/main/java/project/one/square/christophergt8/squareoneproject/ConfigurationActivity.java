@@ -1,5 +1,8 @@
 package project.one.square.christophergt8.squareoneproject;
 
+import android.content.Intent;
+import android.graphics.drawable.Drawable;
+import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -30,10 +33,7 @@ public class ConfigurationActivity extends AppCompatActivity implements View.OnC
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.set_background:
-                Toast.makeText(getApplicationContext(),"Cambiar fondo",Toast.LENGTH_LONG).show();
 
-               //configActivity.setBackgroundResource(R.drawable.background_b);
-               // mainActivity.setBackgroundResource(R.drawable.background_b);
                 break;
         }
     }
