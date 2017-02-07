@@ -5,19 +5,19 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     Button configurations;
+    Button play;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        configurations = (Button) findViewById(R.id.configurations);
-        configurations.setOnClickListener(this);
+        initButtons();
+
     }
 
     @Override
@@ -28,6 +28,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent toConfigurations = new Intent(MainActivity.this,ConfigurationActivity.class);
                 startActivity(toConfigurations);
                 break;
+            case R.id.play:
+                Intent toPlay = new Intent(MainActivity.this,PlayingActivity.class);
+                startActivity(toPlay);
+                break;
+
         }
+    }
+
+    private void initButtons(){
+        configurations = (Button) findViewById(R.id.configurations);
+        configurations.setOnClickListener(this);
+
+        play = (Button) findViewById(R.id.play);
+        play.setOnClickListener(this);
     }
 }

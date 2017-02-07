@@ -15,15 +15,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ConfigurationActivity"
-                    android:label="@string/configurations">
-
+        <activity
+            android:name=".ConfigurationActivity"
+            android:label="@string/configurations">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".PlayingActivity"></activity>
     </application>
 
 </manifest>
