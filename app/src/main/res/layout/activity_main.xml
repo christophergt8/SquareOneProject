@@ -6,8 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="16dp"
-    android:paddingLeft="32dp"
-    android:paddingRight="32dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
     android:paddingTop="32dp"
     tools:context="project.one.square.christophergt8.squareoneproject.MainActivity">
 
@@ -20,7 +20,7 @@
 
     <Button
         android:id="@+id/help"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="10dp"
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -28,7 +28,7 @@
 
     <Button
         android:id="@+id/configurations"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="10dp"
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -36,12 +36,11 @@
 
     <Button
         android:id="@+id/info"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:layout_gravity="bottom|right"
         android:layout_width="100px"
         android:layout_height="100px"
         android:background="@drawable/button_info"/>
-
 
 
 </LinearLayout>
